@@ -4,7 +4,7 @@ int main() {
     int x = 5;
     int y = 0;
 
-    if (x || y == 0)
+    if (y == 0) // Исправление ошибки V560
     {
         std::cout << "devide on zero!! ERROR ";
         return 0;
